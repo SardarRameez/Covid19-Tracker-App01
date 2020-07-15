@@ -22,7 +22,7 @@ export const Cards = ({data :{confirmed , recovered , deaths, lastUpdate}}) => {
                             </CountUp>
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of Active Cases of covid19</Typography>
+                        <Typography variant="body2">Total Cases</Typography>
                     </CardContent>
                 </Grid>
                 
