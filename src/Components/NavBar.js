@@ -25,7 +25,8 @@ export default function NavBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <img src={img} style={{width:'70px' , height:'70px'}} alt=""></img>
+            {/* <img src={img} style={{width:'70px' , height:'70px'}} alt=""></img> */}
+            Covid-19 Tracker App
           </Typography>
         </Toolbar>
       </AppBar>
